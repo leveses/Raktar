@@ -36,7 +36,13 @@ namespace Raktar
             get { return db; }
             set { db = value; }
         }
-
+        public Termek(string kod, string nev, int ar, int db)
+        {
+            this.kod = kod;
+            this.nev = nev;
+            this.ar = ar;
+            this.db = db;
+        }
 
 
     }
